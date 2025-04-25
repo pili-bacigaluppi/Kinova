@@ -1,0 +1,28 @@
+.index-1{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/bg-thegardener.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    img{
+        height: 550px;
+    }
+    .texto-1{
+        color: antiquewhite;
+        width: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 30px;
+        .titulo{
+            height: 95px;
+            object-fit: contain;
+        }
+        .leyenda{
+            height: 24px;
+            margin: 15px 10px;
+        }
+    }
+}

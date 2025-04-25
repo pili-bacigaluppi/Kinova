@@ -1,0 +1,74 @@
+[
+    {
+        "type": "serie",
+        "name": "Anne with an e",
+        "genre": "Drama",
+        "netflixOriginal": "YES",
+        "description": "A finales del siglo XIX, la vida de Ana, una huérfana joven e inteligente, sufre un cambio drástico cuando es adoptada por un dúo de hermanos.",
+        "trailer": "https://www.youtube.com/embed/S5qJXYNNINo?si=B_Vud7HJ5JKZDiAC",
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/17/04/04/23/18/233693.jpg"
+    },
+    {
+        "type": "serie",
+        "name": "Outer Banks",
+        "genre": "Drama",
+        "netflixOriginal": "YES",
+        "description": "Un adolescente recluta a sus tres mejores amigos para buscar un tesoro legendario relacionado con la desaparición de su padre.",
+        "trailer": "https://www.youtube.com/embed/slC_drCw1dA?si=r46Yz1DxaGIwI4Y1",
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg"
+    },
+    {
+        "type": "serie",
+        "name": "Stranger Things",
+        "genre": "Drama",
+        "netflixOriginal": "YES",
+        "description": "En Indiana, en la década de 1980, un grupo de jóvenes amigos presencia fuerzas sobrenaturales y hazañas secretas del gobierno. En su búsqueda de respuestas, los niños desentrañan una serie de misterios extraordinarios.",
+        "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU?si=ODmBtKVEwhYCiaLz",
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/17/10/24/09/04/3656474.jpg?coixp=50&coiyp=36"
+    },
+    {
+        "type": "serie",
+        "name": "The Crown",
+        "genre": "Histórica",
+        "netflixOriginal": "YES",
+        "description": "Tras la repentina muerte del rey, la vida aparentemente tranquila de Isabel se ve sacudida por pruebas y tribulaciones personales y por los asuntos de estado mientras accede al trono de la monarquía británica.",
+        "trailer": "https://www.youtube.com/embed/JWtnJjn6ng0?si=_P3ScgTP9OAzps7s",
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/22/10/18/00/44/2538124.jpg"
+    },
+    {
+        "type": "serie",
+        "name": "The Witcher",
+        "genre": "Fantasía",
+        "netflixOriginal": "YES",
+        "description": "El brujo Geralt, un cazador de monstruos mutado, lucha por encontrar su lugar en un mundo en el que las personas a menudo resultan más malvadas que las bestias.",
+        "trailer": "https://www.youtube.com/embed/ndl1W4ltcmg?si=ip0xmZxXcchRD9dL",
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/19/11/29/17/57/5161763.jpg"
+    },
+    {
+        "type": "movie",
+        "name": "Damsel",
+        "genre": "Fantasía",
+        "netflixOriginal": "YES",
+        "description": "Una joven acepta casarse con un apuesto príncipe, solo para descubrir que todo era una trampa. Es arrojada a una cueva con un dragón que escupe fuego y debe confiar únicamente en su ingenio y voluntad para sobrevivir.",
+        "trailer": "https://www.youtube.com/embed/iM150ZWovZM?si=7U32f3iiLwZP_H_m",
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/23/12/13/09/02/3023843.jpg"
+    },
+    {
+        "type": "movie",
+        "name": "Los Juegos del Hambre",
+        "genre": "Ciencia Ficción",
+        "netflixOriginal": "NO",
+        "description": "Katniss se ofrece como voluntaria para reemplazar a su hermana en un torneo que termina solo cuando queda un participante. Enfrentada a concursantes que han entrenado para esto toda su vida, tiene poco en qué confiar.",
+        "trailer": "https://www.youtube.com/embed/mfmrPu43DF8?si=cyys9knjh8dwNKdE",
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/medias/nmedia/18/85/51/91/20018884.jpg"
+    },
+    {
+        "type": "movie",
+        "name": "El Pianista",
+        "genre": "Drama",
+        "netflixOriginal": "NO",
+        "description": "Durante la Segunda Guerra Mundial, el aclamado músico polaco Wladyslaw enfrenta diversas dificultades al perder el contacto con su familia. A medida que la situación empeora, se esconde en las ruinas de Varsovia para sobrevivir.",
+        "trailer": "https://www.youtube.com/embed/BFwGqLa_oAo?si=hLnaKFrbK9O36vqY",
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/14/05/27/12/07/438875.jpg"
+    }
+]

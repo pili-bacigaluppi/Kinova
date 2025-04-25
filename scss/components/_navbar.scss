@@ -1,0 +1,88 @@
+// NAVBAR PRESENTACION
+.presentacion-header{
+    background-color: #000000;
+    width: 100%;
+    .navbar{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 40px;
+        margin-left: 20px;
+        .logo-netflix{
+            height: 65px;
+            width: auto;
+            object-fit: cover;
+        }
+        .login{
+            border-radius: 15px;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+    }   
+}
+//NAVBAR INDEX
+.login-header{
+    background-color: #000000;
+    width: 100%;
+    .navbar{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 40px;
+        margin-left: 20px;
+        .logo-netflix{
+            height: 65px;
+            width: auto;
+            object-fit: cover;
+        }
+        .return-prest{
+            border-radius: 15px;
+            border: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+    }   
+}
+// NAVBAR INDEX
+.index-header{
+    background-color: #000000;
+    width: 100%;
+    top: 0;
+    .navbar{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 40px;
+        margin-left: 20px;
+        .logo-netflix{
+            height: 65px;
+            width: auto;
+            object-fit: cover;
+        }
+        .search-bar{
+            width: 700px;
+            height: 35px;
+            border-radius: 15px;
+            border: 1px solid #2c2c2c;
+            background-color: #000000;
+            color: antiquewhite;
+        }
+        .profile{
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 15px;
+            align-items: center;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            p{
+                color: antiquewhite;
+            }
+        }
+    }   
+}

@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: #000000;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.presentacion {
+  width: 100%;
+  background-image: url(../assets/bg-netflix.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-top: 0px;
+}
+.presentacion .presentacion-container {
+  background-color: rgba(0, 0, 0, 0.5607843137);
+  padding: 0px 20px 100px 50px;
+  color: antiquewhite;
+}
+.presentacion .presentacion-container h1 {
+  font-size: 4rem;
+  width: 600px;
+  margin: 50px 0px 25px 0px;
+}
+.presentacion .presentacion-container h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: left;
+  margin: 20px 0px 30px 0px;
+}
+.presentacion .presentacion-container .presentacion-login {
+  padding: 16px 38px;
+  background-color: red;
+  border: none;
+  border-radius: 25px;
+  color: antiquewhite;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.login-1 h2 {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 2rem;
+  margin: 50px;
+}
+.login-1 .users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.login-1 .users .user {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login-1 .users .user img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+.login-1 .users .user p {
+  color: antiquewhite;
+  margin: 0;
+  text-align: center;
+}
+.login-1 .users .user .inputName {
+  height: 25px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+.login-1 .users .user .inputName::placeholder {
+  color: rgb(43, 43, 43);
+  padding-left: 5px;
+}
+.login-1 .users .user .btnSubmit {
+  height: 27px;
+  width: 43px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  color: antiquewhite;
+  background-color: red;
+  font-weight: bold;
+}
+
+.index-1 {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../assets/bg-thegardener.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+.index-1 img {
+  height: 550px;
+}
+.index-1 .texto-1 {
+  color: antiquewhite;
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 30px;
+}
+.index-1 .texto-1 .titulo {
+  height: 95px;
+  object-fit: contain;
+}
+.index-1 .texto-1 .leyenda {
+  height: 24px;
+  margin: 15px 10px;
+}
+
+.presentacion-header {
+  background-color: #000000;
+  width: 100%;
+}
+.presentacion-header .navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.presentacion-header .navbar .logo-netflix {
+  height: 65px;
+  width: auto;
+  object-fit: cover;
+}
+.presentacion-header .navbar .login {
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.login-header {
+  background-color: #000000;
+  width: 100%;
+}
+.login-header .navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.login-header .navbar .logo-netflix {
+  height: 65px;
+  width: auto;
+  object-fit: cover;
+}
+.login-header .navbar .return-prest {
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.index-header {
+  background-color: #000000;
+  width: 100%;
+  top: 0;
+}
+.index-header .navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.index-header .navbar .logo-netflix {
+  height: 65px;
+  width: auto;
+  object-fit: cover;
+}
+.index-header .navbar .search-bar {
+  width: 700px;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid #2c2c2c;
+  background-color: #000000;
+  color: antiquewhite;
+}
+.index-header .navbar .profile {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+  align-items: center;
+}
+.index-header .navbar .profile img {
+  width: 40px;
+  height: 40px;
+}
+.index-header .navbar .profile p {
+  color: antiquewhite;
+}
+
+/*# sourceMappingURL=style.css.map */
