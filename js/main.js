@@ -18,7 +18,6 @@ fetch(dataJSON)
     console.log("Datos cargados correctamente:", musicData);
     })
     .catch((error) => {
-    // Si ocurre algún error durante la petición o la conversión, esta función se ejecuta con el error
     console.error("Error al cargar los datos:", error); // Muestra el error en la consola
     displayMessage("Error al cargar la información musical."); // Llama a la función para mostrar un mensaje de error en la interfaz de usuario
     });
