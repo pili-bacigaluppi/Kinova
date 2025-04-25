@@ -84,18 +84,15 @@ body {
   font-weight: bold;
 }
 
-.index-1 {
+.mySwiper .principal-1, .mySwiper .principal-2 {
   display: flex;
   justify-content: space-between;
   background-image: url(../assets/bg-thegardener.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 580px;
 }
-.index-1 img {
-  height: 550px;
-}
-.index-1 .texto-1 {
+.mySwiper .principal-1 .texto, .mySwiper .principal-2 .texto {
   color: antiquewhite;
   width: 750px;
   display: flex;
@@ -104,13 +101,42 @@ body {
   align-items: flex-start;
   padding: 30px;
 }
-.index-1 .texto-1 .titulo {
+.mySwiper .principal-1 .texto .titulo, .mySwiper .principal-2 .texto .titulo {
   height: 95px;
   object-fit: contain;
 }
-.index-1 .texto-1 .leyenda {
+.mySwiper .principal-1 .texto .leyenda, .mySwiper .principal-2 .texto .leyenda {
   height: 24px;
   margin: 15px 10px;
+}
+.mySwiper .principal-2 {
+  background-image: url(../assets/bg-outerbanks.webp);
+}
+.mySwiper .principal-2 .texto .titulo {
+  height: 40px;
+}
+
+.movies .sectMovies {
+  margin: 30px;
+}
+.movies .sectMovies h2 {
+  color: antiquewhite;
+  font-size: 1.32rem;
+}
+.movies .sectMovies .moviesArticle {
+  display: flex;
+  gap: 30px;
+}
+.movies .sectMovies .moviesArticle .eachMovie button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: black;
+}
+.movies .sectMovies .moviesArticle .eachMovie button img {
+  width: 220px;
+  height: 320px;
+  object-fit: cover;
 }
 
 .presentacion-header {

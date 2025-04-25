@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
     <title>Home - Netflix</title>
 </head>
 <body>
     <header class="index-header">
         <nav class="navbar">
-            <a href="../presentacion.html"><img src="../assets/logo-netflix.png" alt="logo de netflix" class="logo-netflix"></a>
+            <a href="../index.html"><img src="../assets/logo-netflix.png" alt="logo de netflix" class="logo-netflix"></a>
             <input type="search" class="search-bar">
             <div class="profile" id="profile">
                 <img src="../assets/user-2.jpg" alt="perfil de netflix">
@@ -17,28 +18,63 @@
         </nav>
     </header>
     <main>
-        <section class="index-1">
-            <article class="texto-1">
-                <img src="../assets/top-netfix.webp" alt="netflix series" class="leyenda">
-                <img src="../assets/titulo-index.webp" alt="titulo de la pelicula" class="titulo">
-                <p>La madre de Elmer usó su falta de sentimientos para convertirlo en sicario. Pero cuando se enamora de su próxima víctima, su fachada de tranquilos jardineros locales se tambalea.</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- Las slides se agregarán aquí -->
+                <div class="swiper-slide">
+                    <section class="principal-1">
+                        <article class="texto">
+                            <img src="../assets/top-netfix.webp" alt="netflix series" class="leyenda">
+                            <img src="../assets/titulo-thegardener.webp" alt="titulo de la pelicula" class="titulo">
+                            <p>La madre de Elmer usó su falta de sentimientos para convertirlo en sicario. Pero cuando se enamora de su próxima víctima, su fachada de tranquilos jardineros locales se tambalea.</p>
+                        </article>
+                    </section>
+                </div>
+                <div class="swiper-slide">
+                    <section class="principal-2">
+                        <article class="texto">
+                            <img src="../assets/top-netfix.webp" alt="netflix series" class="leyenda">
+                            <img src="../assets/titulo-outerbanks.webp" alt="titulo de la pelicula" class="titulo">
+                            <p>En una isla de ricos y pobres en Carolina del Norte, John B. y su sólido grupo de amigos encuentran misterios y aventuras mientras buscan un tesoro perdido.</p>
+                        </article>
+                    </section>
+                </div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+            </div>
+            <!-- Botones de navegación -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <section class="movies">
+            <article class="sectMovies">
+                <h2>Originales</h2>
+                <article id="originals" class="moviesArticle">
+                    <article class="eachMovie">
+                        <button><img src="https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg" alt="portada de las peliculas o series."></button>
+                    </article>
+                    <article class="eachMovie">
+                        <button><img src="https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg" alt="portada de las peliculas o series."></button>
+                    </article>
+                    <article class="eachMovie">
+                        <button><img src="https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg" alt="portada de las peliculas o series."></button>
+                    </article>
+                </article>
             </article>
-        </section>
-        <section class="peliculas">
-            <article class="originals">
+            
+            <article id="otras" class="peliculasArticle">
 
             </article>
-            <article class="thriller">
+            <article id="fantasia" class="peliculasArticle">
 
             </article>
-            <article class="fantasia">
-
-            </article>
-            <article class="drama">
+            <article id="drama" class="peliculasArticle">
 
             </article>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/swiper.js"></script>
     <script src="../js/main.js"></script>
 </body>
 </html>

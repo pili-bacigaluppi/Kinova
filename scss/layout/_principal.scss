@@ -1,0 +1,62 @@
+.mySwiper{
+    .principal-1{
+        display: flex;
+        justify-content: space-between;
+        background-image: url(../assets/bg-thegardener.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 580px;
+        .texto{
+            color: antiquewhite;
+            width: 750px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding: 30px;
+            .titulo{
+                height: 95px;
+                object-fit: contain;
+            }
+            .leyenda{
+                height: 24px;
+                margin: 15px 10px;
+            }
+        }
+    }
+    .principal-2{
+        @extend .principal-1;
+        background-image: url(../assets/bg-outerbanks.webp);
+        .texto{
+            .titulo{
+                height: 40px;
+            }
+        }
+    }
+}
+.movies{
+    .sectMovies{
+        margin: 30px;
+        h2{
+            color: antiquewhite;
+            font-size: 1.32rem;
+        }
+        .moviesArticle{ 
+            display: flex;
+            gap: 30px;
+            .eachMovie{
+                button{
+                    padding: 0;
+                    margin: 0;
+                    border: 0;
+                    background: black;
+                    img{
+                        width: 220px;
+                        height: 320px;
+                        object-fit: cover;
+                    }
+                }
+                }
+        }
+    }
+}

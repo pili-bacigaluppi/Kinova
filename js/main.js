@@ -2,35 +2,36 @@
 const nameProfile = document.getElementById("inputName");
 const btnLogin = document.getElementById("btnSubmit");
 const profile = document.getElementById("profile");
+const SectOriginals = document.getElementById("originals");
+const SectFantasy = document.getElementById("fantasia");
+const SectDrama = document.getElementById("drama");
+const SectOtras = document.getElementById("otras");
+
+// ARRAYS
+let movieData = [];
+const elegidosFavoritos = [];
 
 // CONECTO EL JSON
 const dataJSON = "../data/peliculas.json";
 fetch(dataJSON)
     .then((response) => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`); // Si no es exitosa, lanza un error con el código de estado
-        } else{
-            return response.json();
-        }
+        return response.json();
     })
     .then((data) => {
     movieData = data;
-    console.log("Datos cargados correctamente:", musicData);
+    console.log("Datos cargados correctamente:", movieData);
+    loadMovies();
     })
-    .catch((error) => {
-    console.error("Error al cargar los datos:", error); // Muestra el error en la consola
-    displayMessage("Error al cargar la información musical."); // Llama a la función para mostrar un mensaje de error en la interfaz de usuario
+    .catch(() => {
+    console.error("No se pudieron cargar los datos, hay un error");
     });
-// ARRAYS
-
 // LOAD DATOS
 window.addEventListener(`DOMContentLoaded`, function(){
     if (profile) {
         showNameProfile();
     } else{
         alert(`NO FUNCIONA`);
-    }
-
+    };
 });
 
 // FUNCIONES
@@ -40,4 +41,9 @@ function showNameProfile(){
     profile.appendChild(loadName);
 }
 function loadMovies(){
+    movieData.forEach(movie => {
+        if (movie.netflixOriginal === "YES") {
+            const eachMovie = document.createElement("div");
+        }
+    });
 }

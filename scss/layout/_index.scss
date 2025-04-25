@@ -1,28 +1,33 @@
-.index-1{
-    display: flex;
-    justify-content: space-between;
-    background-image: url(../assets/bg-thegardener.webp);
+.presentacion{
+    width: 100%;
+    background-image: url(../assets/bg-netflix.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
-    img{
-        height: 550px;
-    }
-    .texto-1{
+    display: flex;
+    margin-top: 0px;
+    .presentacion-container{
+        background-color: #0000008f;
+        padding: 0px 20px 100px 50px;
         color: antiquewhite;
-        width: 750px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-start;
-        padding: 30px;
-        .titulo{
-            height: 95px;
-            object-fit: contain;
+        h1{
+            font-size: 4rem;
+            width: 600px;
+            margin: 50px 0px 25px 0px;
         }
-        .leyenda{
-            height: 24px;
-            margin: 15px 10px;
+        h2{
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-align: left;
+            margin: 20px 0px 30px 0px;
+        }
+        .presentacion-login{
+            padding: 16px 38px;
+            background-color: red;
+            border: none;
+            border-radius: 25px;
+            color: antiquewhite;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 1rem;
         }
     }
 }
