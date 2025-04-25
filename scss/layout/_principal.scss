@@ -1,4 +1,7 @@
-.mySwiper{
+.presentation{
+    .swiper-button-prev, .swiper-button-next{
+        color: white;
+    }
     .principal-1{
         display: flex;
         justify-content: space-between;
@@ -6,7 +9,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 580px;
-        .texto{
+        .text{
             color: antiquewhite;
             width: 750px;
             display: flex;
@@ -27,36 +30,65 @@
     .principal-2{
         @extend .principal-1;
         background-image: url(../assets/bg-outerbanks.webp);
-        .texto{
+        .text{
             .titulo{
                 height: 40px;
             }
         }
     }
+    .principal-3{
+        @extend .principal-1;
+        background-image: url(../assets/bg-hungergames.webp);
+        .text{
+            .titulo{
+                height: 65px;
+            }
+        }
+    }
+    .principal-4{
+        @extend .principal-1;
+        background-image: url(../assets/bg-spiderman.webp);
+        .text{
+            .titulo{
+                height: 100px;
+            }
+        }
+    }
 }
 .movies{
+    .swiper-button-prev, .swiper-button-next{
+        color: white;
+    }
     .sectMovies{
         margin: 30px;
         h2{
             color: antiquewhite;
             font-size: 1.32rem;
         }
-        .moviesArticle{ 
-            display: flex;
-            gap: 30px;
-            .eachMovie{
-                button{
-                    padding: 0;
-                    margin: 0;
-                    border: 0;
-                    background: black;
-                    img{
-                        width: 220px;
-                        height: 320px;
-                        object-fit: cover;
-                    }
-                }
-                }
+        .eachMovie{
+            img{
+                width: 220px;
+                height: 320px;
+                object-fit: cover;
+            }
+            .watch{
+                width: 185px;
+                height: 30px;
+                margin: 7px 0px;
+                border-radius: 5px;
+                border: 0;
+            }
+            .favorites{
+                width: 30px;
+                margin: 0;
+                height: 30px;
+                text-align: center;
+                background-color: red;
+                border: 0;
+                border-radius: 5px;
+                color: white;
+                font-size: 1.1rem;
+            }
         }
     }
 }

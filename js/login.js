@@ -6,8 +6,9 @@ btnLogin.addEventListener("click", loadNameProfile);
 // FUNCIONES
 function loadNameProfile(){
     const name = nameProfile.value;
+    const invitado = "invitado"
     if(name == ""){
-        return
+        localStorage.setItem(`nameProfile`, invitado);
     } else{
         localStorage.setItem(`nameProfile`, name);
     }

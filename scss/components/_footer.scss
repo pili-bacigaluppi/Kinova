@@ -1,0 +1,18 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+    height: 200px;
+    img{
+        height: 170px;
+    }
+    div{
+        color: white;
+        font-weight: 200;
+        font-size: .9rem;
+        a{
+            color: white;
+        }
+    }
+}

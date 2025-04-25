@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="../css/style.css">
     <title>Home - Netflix</title>
 </head>
 <body>
     <header class="index-header">
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <a href="../index.html"><img src="../assets/logo-netflix.png" alt="logo de netflix" class="logo-netflix"></a>
-            <input type="search" class="search-bar">
+            <div>
+                <input type="search" class="search-bar" id="search-input">
+                <button class="lupa" id="search-button"><span class="material-icons">search</span></button>
+            </div>
             <div class="profile" id="profile">
                 <img src="../assets/user-2.jpg" alt="perfil de netflix">
             </div>
         </nav>
+        <section class="results">
+            <div class="swiper mySwiper presentation">
+                <div class="swiper-wrapper" id="results">
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper presentation">
             <div class="swiper-wrapper">
-                <!-- Las slides se agregarán aquí -->
                 <div class="swiper-slide">
                     <section class="principal-1">
-                        <article class="texto">
+                        <article class="text">
                             <img src="../assets/top-netfix.webp" alt="netflix series" class="leyenda">
                             <img src="../assets/titulo-thegardener.webp" alt="titulo de la pelicula" class="titulo">
                             <p>La madre de Elmer usó su falta de sentimientos para convertirlo en sicario. Pero cuando se enamora de su próxima víctima, su fachada de tranquilos jardineros locales se tambalea.</p>
@@ -32,47 +41,103 @@
                 </div>
                 <div class="swiper-slide">
                     <section class="principal-2">
-                        <article class="texto">
+                        <article class="text">
                             <img src="../assets/top-netfix.webp" alt="netflix series" class="leyenda">
                             <img src="../assets/titulo-outerbanks.webp" alt="titulo de la pelicula" class="titulo">
                             <p>En una isla de ricos y pobres en Carolina del Norte, John B. y su sólido grupo de amigos encuentran misterios y aventuras mientras buscan un tesoro perdido.</p>
                         </article>
                     </section>
                 </div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">
+                    <section class="principal-3">
+                        <article class="text">
+                            <img src="../assets/top-netfix.webp" alt="netflix series" class="leyenda">
+                            <img src="../assets/titulo-hungergames.webp" alt="titulo de la pelicula" class="titulo">
+                            <p>Katniss se ofrece como voluntaria en un torneo que termina solo cuando queda un participante. Enfrentada a concursantes que han entrenado para esto toda su vida, tiene poco en qué confiar.</p>
+                        </article>
+                    </section>
+                </div>
+                <div class="swiper-slide">
+                    <section class="principal-4">
+                        <article class="text">
+                            <img src="../assets/top-netfix.webp" alt="netflix series" class="leyenda">
+                            <img src="../assets/titulo-spiderman.webp" alt="titulo de la pelicula" class="titulo">
+                            <p>Con sus seres queridos en riesgo, Peter Parker acude a Doctor Strange para recuperar su anonimato y, por accidente, termina desatando un desastre de proporciones épicas.</p>
+                        </article>
+                    </section>
+                </div>
             </div>
-            <!-- Botones de navegación -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
         <section class="movies">
             <article class="sectMovies">
                 <h2>Originales</h2>
-                <article id="originals" class="moviesArticle">
-                    <article class="eachMovie">
-                        <button><img src="https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg" alt="portada de las peliculas o series."></button>
-                    </article>
-                    <article class="eachMovie">
-                        <button><img src="https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg" alt="portada de las peliculas o series."></button>
-                    </article>
-                    <article class="eachMovie">
-                        <button><img src="https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg" alt="portada de las peliculas o series."></button>
-                    </article>
+                <article class="moviesArticle">
+                    <div class="swiper mySwiper movies-carrousel">
+                        <div class="swiper-wrapper" id="originals">
+                            
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
                 </article>
             </article>
-            
-            <article id="otras" class="peliculasArticle">
-
+            <article class="sectMovies">
+                <h2>Otras</h2>
+                <article class="moviesArticle">
+                    <div class="swiper mySwiper movies-carrousel">
+                        <div class="swiper-wrapper" id="otras">
+                            
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </article>
             </article>
-            <article id="fantasia" class="peliculasArticle">
-
+            <article class="sectMovies">
+                <h2>Fantasía</h2>
+                <article class="moviesArticle">
+                    <div class="swiper mySwiper movies-carrousel">
+                        <div class="swiper-wrapper" id="fantasia">
+                            
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </article>
             </article>
-            <article id="drama" class="peliculasArticle">
-
+            <article class="sectMovies">
+                <h2>Drama</h2>
+                <article class="moviesArticle">
+                    <div class="swiper mySwiper movies-carrousel">
+                        <div class="swiper-wrapper" id="drama">
+                            
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </article>
+            </article>
+            <article class="modalPreview" id="modalPreview">
+                <span id="closeModalP" class="cerrar">&times;</span>
+                <section class="preview" id="preview">
+                </section>
+            </article>
+            <article class="modalVisualizer" id="modalVisualizer">
+                <span id="closeModalV" class="close">&times;</span>
+                <article class="video" id="video">
+                </article>
             </article>
         </section>
     </main>
+    <footer>
+        <img src="../assets/logo-netflix.png" alt="logo de netflix">
+        <div>
+            <p>Todos los derechos reservados.</p>
+            <a href="#navbar">Volver arriba</a>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="../js/swiper.js"></script>
     <script src="../js/main.js"></script>

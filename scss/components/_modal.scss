@@ -1,0 +1,105 @@
+.modalPreview {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    .preview{
+        margin: 4% auto;
+        display: flex;
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 70%;
+        .text{
+            color: antiquewhite;
+            width: 750px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+            padding: 30px;
+            .titulo{
+                height: 35px;
+                object-fit: contain;
+            }
+            .leyenda{
+                height: 24px;
+                margin: 15px 10px;
+            }
+            div{
+                .watchMovie{
+                    background-color: red;
+                    color: white;
+                    padding: 8px 40px;
+                    border-radius: 10px;
+                    border: 0;
+                    font-size: 1rem;
+                }
+                .favPreview{
+                    background-color: black;
+                    color: white;
+                    border: 0;
+                    font-size: 1.3rem;
+                    padding: 6px 15px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+    .close{
+        color: white;
+        height: 40px;
+        font-size: 28px;
+        font-weight: bold;
+        float: right;
+        cursor: pointer;
+        position: relative;
+        top: 4.5rem;
+        right: 14rem;
+        &:hover{
+            color: rgb(112, 112, 112);
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
+.modalVisualizer {
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    .video{
+        width: 900px;
+        height: 550px;
+        background-color: black;
+        margin: 4% auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .close{
+        color: white;
+        height: 40px;
+        font-size: 28px;
+        font-weight: bold;
+        float: right;
+        cursor: pointer;
+        position: relative;
+        top: 3.6rem;
+        right: 14.5rem;
+        &:hover{
+            color: rgb(112, 112, 112);
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}

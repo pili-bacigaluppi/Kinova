@@ -38,6 +38,9 @@ body {
   font-size: 1rem;
 }
 
+.login-1 {
+  height: 450px;
+}
 .login-1 h2 {
   color: antiquewhite;
   text-align: center;
@@ -84,7 +87,10 @@ body {
   font-weight: bold;
 }
 
-.mySwiper .principal-1, .mySwiper .principal-2 {
+.presentation .swiper-button-prev, .presentation .swiper-button-next {
+  color: white;
+}
+.presentation .principal-1, .presentation .principal-4, .presentation .principal-3, .presentation .principal-2 {
   display: flex;
   justify-content: space-between;
   background-image: url(../assets/bg-thegardener.webp);
@@ -92,7 +98,7 @@ body {
   background-size: cover;
   height: 580px;
 }
-.mySwiper .principal-1 .texto, .mySwiper .principal-2 .texto {
+.presentation .principal-1 .text, .presentation .principal-4 .text, .presentation .principal-3 .text, .presentation .principal-2 .text {
   color: antiquewhite;
   width: 750px;
   display: flex;
@@ -101,21 +107,36 @@ body {
   align-items: flex-start;
   padding: 30px;
 }
-.mySwiper .principal-1 .texto .titulo, .mySwiper .principal-2 .texto .titulo {
+.presentation .principal-1 .text .titulo, .presentation .principal-4 .text .titulo, .presentation .principal-3 .text .titulo, .presentation .principal-2 .text .titulo {
   height: 95px;
   object-fit: contain;
 }
-.mySwiper .principal-1 .texto .leyenda, .mySwiper .principal-2 .texto .leyenda {
+.presentation .principal-1 .text .leyenda, .presentation .principal-4 .text .leyenda, .presentation .principal-3 .text .leyenda, .presentation .principal-2 .text .leyenda {
   height: 24px;
   margin: 15px 10px;
 }
-.mySwiper .principal-2 {
+.presentation .principal-2 {
   background-image: url(../assets/bg-outerbanks.webp);
 }
-.mySwiper .principal-2 .texto .titulo {
+.presentation .principal-2 .text .titulo {
   height: 40px;
 }
+.presentation .principal-3 {
+  background-image: url(../assets/bg-hungergames.webp);
+}
+.presentation .principal-3 .text .titulo {
+  height: 65px;
+}
+.presentation .principal-4 {
+  background-image: url(../assets/bg-spiderman.webp);
+}
+.presentation .principal-4 .text .titulo {
+  height: 100px;
+}
 
+.movies .swiper-button-prev, .movies .swiper-button-next {
+  color: white;
+}
 .movies .sectMovies {
   margin: 30px;
 }
@@ -123,20 +144,28 @@ body {
   color: antiquewhite;
   font-size: 1.32rem;
 }
-.movies .sectMovies .moviesArticle {
-  display: flex;
-  gap: 30px;
-}
-.movies .sectMovies .moviesArticle .eachMovie button {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background: black;
-}
-.movies .sectMovies .moviesArticle .eachMovie button img {
+.movies .sectMovies .eachMovie img {
   width: 220px;
   height: 320px;
   object-fit: cover;
+}
+.movies .sectMovies .eachMovie .watch {
+  width: 185px;
+  height: 30px;
+  margin: 7px 0px;
+  border-radius: 5px;
+  border: 0;
+}
+.movies .sectMovies .eachMovie .favorites {
+  width: 30px;
+  margin: 0;
+  height: 30px;
+  text-align: center;
+  background-color: red;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1rem;
 }
 
 .presentacion-header {
@@ -205,13 +234,28 @@ body {
   width: auto;
   object-fit: cover;
 }
-.index-header .navbar .search-bar {
+.index-header .navbar div .search-bar {
   width: 700px;
   height: 35px;
   border-radius: 15px;
   border: 1px solid #2c2c2c;
   background-color: #000000;
   color: antiquewhite;
+}
+.index-header .navbar div button {
+  background-color: transparent;
+  border: 0;
+  position: relative;
+  right: 3rem;
+  top: 0.5rem;
+}
+.index-header .navbar div button .material-icons {
+  color: white;
+}
+.index-header .navbar div a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
 }
 .index-header .navbar .profile {
   display: flex;
@@ -225,6 +269,155 @@ body {
 }
 .index-header .navbar .profile p {
   color: antiquewhite;
+}
+
+.results {
+  display: none;
+  gap: 30px;
+  width: 100%;
+  height: 400px;
+}
+.results .noResults {
+  font-size: 1.2rem;
+  color: white;
+  justify-self: center;
+  align-self: center;
+}
+.results .movieFound img {
+  width: 220px;
+  height: 320px;
+  object-fit: cover;
+}
+.results .movieFound .watch {
+  width: 100%;
+  height: 30px;
+  margin: 7px 0px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.modalPreview {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalPreview .preview {
+  margin: 4% auto;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 70%;
+}
+.modalPreview .preview .text {
+  color: antiquewhite;
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 30px;
+}
+.modalPreview .preview .text .titulo {
+  height: 35px;
+  object-fit: contain;
+}
+.modalPreview .preview .text .leyenda {
+  height: 24px;
+  margin: 15px 10px;
+}
+.modalPreview .preview .text div .watchMovie {
+  background-color: red;
+  color: white;
+  padding: 8px 40px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 1rem;
+}
+.modalPreview .preview .text div .favPreview {
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 1.3rem;
+  padding: 6px 15px;
+  border-radius: 8px;
+}
+.modalPreview .close {
+  color: white;
+  height: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: 4.5rem;
+  right: 14rem;
+}
+.modalPreview .close:hover {
+  color: rgb(112, 112, 112);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalVisualizer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalVisualizer .video {
+  width: 900px;
+  height: 550px;
+  background-color: black;
+  margin: 4% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalVisualizer .close {
+  color: white;
+  height: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: 3.6rem;
+  right: 14.5rem;
+}
+.modalVisualizer .close:hover {
+  color: rgb(112, 112, 112);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 600px;
+  height: 200px;
+}
+footer img {
+  height: 170px;
+}
+footer div {
+  color: white;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+footer div a {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

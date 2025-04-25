@@ -1,74 +1,101 @@
 [
     {
         "type": "serie",
-        "name": "Anne with an e",
+        "searchName": "annewithane",
+        "className": "anne-with-an-e",
         "genre": "Drama",
         "netflixOriginal": "YES",
         "description": "A finales del siglo XIX, la vida de Ana, una huérfana joven e inteligente, sufre un cambio drástico cuando es adoptada por un dúo de hermanos.",
-        "trailer": "https://www.youtube.com/embed/S5qJXYNNINo?si=B_Vud7HJ5JKZDiAC",
-        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/17/04/04/23/18/233693.jpg"
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/17/04/04/23/18/233693.jpg",
+        "bgPreview": "https://es.web.img2.acsta.net/r_1920_1080/pictures/20/01/13/00/05/1188733.jpg",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABYxjz4r677d9qq93Ul2vWEbT6h3-mJjNIZXcHTHWRmGSMPbww0RsL8VdBLReZr3W6Lf71QdnqjOtAlPi72rC-RHBuAi6_exshr4.webp?r=c71"
     },
     {
         "type": "serie",
-        "name": "Outer Banks",
+        "searchName": "outerbanks",
+        "className": "outer-banks",
         "genre": "Drama",
         "netflixOriginal": "YES",
         "description": "Un adolescente recluta a sus tres mejores amigos para buscar un tesoro legendario relacionado con la desaparición de su padre.",
-        "trailer": "https://www.youtube.com/embed/slC_drCw1dA?si=r46Yz1DxaGIwI4Y1",
-        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg"
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/20/06/15/13/37/0583386.jpg",
+        "bgPreview": "https://wallpapers.com/images/high/outer-banks-2560-x-1440-background-zaqcjd5tvinmky80.webp",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABV91yedpzBKN82rY_18sm43Fv78BCTRzbWcbrOzA1xGZmFE9APqIMOXba8OlSukjeaml5kXpvkNJaE-tIrkqcylEFqRqI2xhFQ.webp?r=5e8"
     },
     {
         "type": "serie",
-        "name": "Stranger Things",
+        "searchName": "strangerthings",
+        "className": "stranger-things",
         "genre": "Drama",
         "netflixOriginal": "YES",
         "description": "En Indiana, en la década de 1980, un grupo de jóvenes amigos presencia fuerzas sobrenaturales y hazañas secretas del gobierno. En su búsqueda de respuestas, los niños desentrañan una serie de misterios extraordinarios.",
-        "trailer": "https://www.youtube.com/embed/b9EkMc79ZSU?si=ODmBtKVEwhYCiaLz",
-        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/17/10/24/09/04/3656474.jpg?coixp=50&coiyp=36"
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/17/10/24/09/04/3656474.jpg?coixp=50&coiyp=36",
+        "bgPreview": "https://wallpapers.com/images/high/stranger-things-group-computer-concentration-qykrnspyduw6xv4x.webp",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABWCbEzpdkYL3YFByruGPW5g9h5GUnQI8cUijxlMF53i5kZYUzz6mOt0QN37RpbjdqWQhY3D6kXLdhPqrBj6r7Ij2PFYeO-C19g.webp?r=23b"
     },
     {
         "type": "serie",
-        "name": "The Crown",
-        "genre": "Histórica",
+        "searchName": "thecrown",
+        "className": "the-crown",
+        "genre": "Historica",
         "netflixOriginal": "YES",
         "description": "Tras la repentina muerte del rey, la vida aparentemente tranquila de Isabel se ve sacudida por pruebas y tribulaciones personales y por los asuntos de estado mientras accede al trono de la monarquía británica.",
-        "trailer": "https://www.youtube.com/embed/JWtnJjn6ng0?si=_P3ScgTP9OAzps7s",
-        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/22/10/18/00/44/2538124.jpg"
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/22/10/18/00/44/2538124.jpg",
+        "bgPreview": "https://es.web.img3.acsta.net/r_1920_1080/pictures/23/11/14/12/24/1393841.jpg",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABfOtkswo7qobt204Rav41Sd4jt-9slDDScd5E5Ngc63MNxXe0dA-GlBTivawdu8l30WnZkrTS28CkUDj4D2LMWIJDFbty7rUvg.webp?r=3b9"
     },
     {
         "type": "serie",
-        "name": "The Witcher",
-        "genre": "Fantasía",
+        "searchName": "thewitcher",
+        "className": "the-witcher",
+        "genre": "Fantasia",
         "netflixOriginal": "YES",
         "description": "El brujo Geralt, un cazador de monstruos mutado, lucha por encontrar su lugar en un mundo en el que las personas a menudo resultan más malvadas que las bestias.",
-        "trailer": "https://www.youtube.com/embed/ndl1W4ltcmg?si=ip0xmZxXcchRD9dL",
-        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/19/11/29/17/57/5161763.jpg"
+        "miniature": "https://es.web.img3.acsta.net/r_1920_1080/pictures/19/11/29/17/57/5161763.jpg",
+        "bgPreview": "https://wallpapers.com/images/high/3440x1440-witcher-t620efs4tvo3ff25.webp",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABcB3wKoXj4EUmrrbJLV2RtV8wbsxydoJF09gc-epotEfkutyuld9v7dbHTfjJgMhO0rhA41odcqLUB1xSImYJLo61_HxysxQOg.webp?r=21d"
     },
     {
         "type": "movie",
-        "name": "Damsel",
-        "genre": "Fantasía",
+        "searchName": "damsel",
+        "className": "damsel",
+        "genre": "Fantasia",
         "netflixOriginal": "YES",
         "description": "Una joven acepta casarse con un apuesto príncipe, solo para descubrir que todo era una trampa. Es arrojada a una cueva con un dragón que escupe fuego y debe confiar únicamente en su ingenio y voluntad para sobrevivir.",
-        "trailer": "https://www.youtube.com/embed/iM150ZWovZM?si=7U32f3iiLwZP_H_m",
-        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/23/12/13/09/02/3023843.jpg"
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/23/12/13/09/02/3023843.jpg",
+        "bgPreview": "https://es.web.img3.acsta.net/r_1920_1080/pictures/23/12/19/11/57/0958821.jpg",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABdd0ru1NrT-TZvHv8KxnbnvO6n0B3kHCPMRH0OXjWIVkcJcIpGjDBwx8I-E2TuWJAqbHu1OnzjmhQZiaU8PfqTUxYn0HSsZiSw.webp?r=946"
     },
     {
         "type": "movie",
-        "name": "Los Juegos del Hambre",
+        "searchName": "losjuegosdelhambre",
+        "className": "hunger-games",
         "genre": "Ciencia Ficción",
         "netflixOriginal": "NO",
         "description": "Katniss se ofrece como voluntaria para reemplazar a su hermana en un torneo que termina solo cuando queda un participante. Enfrentada a concursantes que han entrenado para esto toda su vida, tiene poco en qué confiar.",
-        "trailer": "https://www.youtube.com/embed/mfmrPu43DF8?si=cyys9knjh8dwNKdE",
-        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/medias/nmedia/18/85/51/91/20018884.jpg"
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/medias/nmedia/18/85/51/91/20018884.jpg",
+        "bgPreview": "https://wallpapers.com/images/high/julianne-moore-hunger-games-alma-coin-wn8sz06mc4p8cwh5.webp",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABX3ry-3oXslr0rYKz0XkyjMatWEa2EfZYQL2D2SVYTFAvyYjbvdobkZDvI9Od8_XHT89OmAR3BfxZb66bofp82bHUAjHb6eINg.webp?r=459"
     },
     {
         "type": "movie",
-        "name": "El Pianista",
+        "searchName": "elpianista",
+        "className": "the-pianist",
         "genre": "Drama",
         "netflixOriginal": "NO",
         "description": "Durante la Segunda Guerra Mundial, el aclamado músico polaco Wladyslaw enfrenta diversas dificultades al perder el contacto con su familia. A medida que la situación empeora, se esconde en las ruinas de Varsovia para sobrevivir.",
-        "trailer": "https://www.youtube.com/embed/BFwGqLa_oAo?si=hLnaKFrbK9O36vqY",
-        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/14/05/27/12/07/438875.jpg"
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/14/05/27/12/07/438875.jpg",
+        "bgPreview": "https://wallpapers.com/images/high/adrien-brody-in-the-pianist-esxyqe76t0skkvcu.webp",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABQgcNzstAcUtJbVPd3qAECIt4ORJ4lm9fXPlNSPiizB3dRY8ZCL9KKfm_FjtDrTdpNxbV7TUgkVDMC6-LDVUkG6HdAp4HvtCSA.webp?r=fa0"
+    },
+    {
+        "type": "movie",
+        "searchName": "lasociedaddelanieve",
+        "className": "sociedad-de-la-nieve",
+        "genre": "Drama",
+        "netflixOriginal": "YES",
+        "description": "Cuando un avión se estrella en el remoto corazón de los Andes, los sobrevivientes unen fuerzas y pasan a ser su mayor esperanza para volver a casa.",
+        "miniature": "https://es.web.img2.acsta.net/r_1920_1080/pictures/23/11/21/20/23/5745275.jpg",
+        "bgPreview": "https://es.web.img2.acsta.net/r_1920_1080/pictures/23/11/28/12/17/0148722.jpg",
+        "titlePreview": "https://occ-0-2261-1740.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABc1_unNpIJc_Kj_QoibVo0EHRnJn-3v-fp2mi6dXMj81WY4v7VAorFgLGkgub78j4aE9JoKbCDHglW1L79q-hP37McrGOg-2pg.webp?r=1d2"
     }
 ]
