@@ -142,43 +142,43 @@ function showPreview(movieName){
         }
     }
 }
-function searchBar(){
-    const searchTerm = searchInput.value.toLowerCase();
-    results.innerHTML = ""; 
-    const filteredMovies = movieData.filter(movie => {
-        return (
-            movie.name.toLowerCase().includes(searchTerm) ||
-            movie.genre.toLowerCase().includes(searchTerm)
-        );
-    })
-    const searchBlock = document.querySelector(".results");
-    if (filteredMovies.length === 0) {
-        searchBlock.style.display = "block";
-        const noResults = document.createElement("p");
-        noResults.classList.add("noResults");
-        noResults.textContent = "No se encontraron resultados.";
-        results.appendChild(noResults);
-    } else {
-        searchBlock.style.display = "block";
-        filteredMovies.forEach(movie => {
-            const eachMovie = document.createElement("div");
-            eachMovie.classList.add("swiper-slide");
-            eachMovie.innerHTML = `
-                <article class="movieFound">
-                    <img src="${movie.miniature}" alt="portada de ${movie.name}">
-                    <div class="actions">
-                        <button class="watch" data-nombre="${movie.className}">Ver Ahora</button>
-                    </div>
-                </article>
-            `;
-            results.appendChild(eachMovie);
-        });
-        let moviePreviewChosen = document.querySelectorAll(".watch");
-        moviePreviewChosen.forEach(boton => {
-            boton.addEventListener("click", function () {
-                const movieChosen = boton.dataset.nombre;
-                showPreview(movieChosen);
-            });
-        });
-    }
-}
+// function searchBar(){
+//     const searchTerm = searchInput.value.toLowerCase();
+//     results.innerHTML = ""; 
+//     const filteredMovies = movieData.filter(movie => {
+//         return (
+//             movie.name.toLowerCase().includes(searchTerm) ||
+//             movie.genre.toLowerCase().includes(searchTerm)
+//         );
+//     })
+//     const searchBlock = document.querySelector(".results");
+//     if (filteredMovies.length === 0) {
+//         searchBlock.style.display = "block";
+//         const noResults = document.createElement("p");
+//         noResults.classList.add("noResults");
+//         noResults.textContent = "No se encontraron resultados.";
+//         results.appendChild(noResults);
+//     } else {
+//         searchBlock.style.display = "block";
+//         filteredMovies.forEach(movie => {
+//             const eachMovie = document.createElement("div");
+//             eachMovie.classList.add("swiper-slide");
+//             eachMovie.innerHTML = `
+//                 <article class="movieFound">
+//                     <img src="${movie.miniature}" alt="portada de ${movie.name}">
+//                     <div class="actions">
+//                         <button class="watch" data-nombre="${movie.className}">Ver Ahora</button>
+//                     </div>
+//                 </article>
+//             `;
+//             results.appendChild(eachMovie);
+//         });
+//         let moviePreviewChosen = document.querySelectorAll(".watch");
+//         moviePreviewChosen.forEach(boton => {
+//             boton.addEventListener("click", function () {
+//                 const movieChosen = boton.dataset.nombre;
+//                 showPreview(movieChosen);
+//             });
+//         });
+//     }
+// }
