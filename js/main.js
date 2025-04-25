@@ -61,7 +61,6 @@ function loadMovies(){
                 <img src="${movie.miniature}" alt="portada de las peliculas o series de ${movie.name}">
                 <div class="actions" id="actions">
                     <button class="watch" data-nombre="${movie.className}">Ver Ahora</button>
-                    <button class="favorites" data-nombre="${movie.className}">&hearts;</button>
                 </div>
             </article>
             `;
@@ -75,7 +74,6 @@ function loadMovies(){
                 <img src="${movie.miniature}" alt="portada de las peliculas o series de ${movie.name}">
                 <div class="actions" id="actions">
                     <button class="watch" data-nombre="${movie.className}">Ver Ahora</button>
-                    <button class="favorites" data-nombre="${movie.className}">&hearts;</button>
                 </div>
             </article>
             `;
@@ -89,7 +87,6 @@ function loadMovies(){
                 <img src="${movie.miniature}" alt="portada de las peliculas o series de ${movie.name}">
                 <div class="actions" id="actions">
                     <button class="watch" data-nombre="${movie.className}">Ver Ahora</button>
-                    <button class="favorites" data-nombre="${movie.className}">&hearts;</button>
                 </div>
             </article>
             `;
@@ -103,7 +100,6 @@ function loadMovies(){
                 <img src="${movie.miniature}" alt="portada de las peliculas o series de ${movie.name}">
                 <div class="actions" id="actions">
                     <button class="watch" data-nombre="${movie.className}">Ver Ahora</button>
-                    <button class="favorites" data-nombre="${movie.className}">&hearts;</button>
                 </div>
             </article>
             `;
@@ -130,7 +126,6 @@ function showPreview(movieName){
         <p>${movieChosen.description}</p>
         <div>
         <button class="watchMovie" id="openModalV">Ver</button>
-        <button class="favPreview" id="favorites">&hearts;</button>
         </div>
         `;
         sectPreview.innerHTML = "";

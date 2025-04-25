@@ -150,22 +150,11 @@ body {
   object-fit: cover;
 }
 .movies .sectMovies .eachMovie .watch {
-  width: 185px;
+  width: 96%;
   height: 30px;
   margin: 7px 0px;
   border-radius: 5px;
   border: 0;
-}
-.movies .sectMovies .eachMovie .favorites {
-  width: 30px;
-  margin: 0;
-  height: 30px;
-  text-align: center;
-  background-color: red;
-  border: 0;
-  border-radius: 5px;
-  color: white;
-  font-size: 1.1rem;
 }
 
 .presentacion-header {
@@ -335,18 +324,10 @@ body {
 .modalPreview .preview .text div .watchMovie {
   background-color: red;
   color: white;
-  padding: 8px 40px;
+  padding: 8px 80px;
   border-radius: 10px;
   border: 0;
   font-size: 1rem;
-}
-.modalPreview .preview .text div .favPreview {
-  background-color: black;
-  color: white;
-  border: 0;
-  font-size: 1.3rem;
-  padding: 6px 15px;
-  border-radius: 8px;
 }
 .modalPreview .close {
   color: white;
